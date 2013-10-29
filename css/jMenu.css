@@ -1,0 +1,27 @@
+.jMenuList {
+	position: absolute;
+	z-index: 1000;
+	margin: 0;
+	padding: 0;
+	font: 10pt normal arial;
+	background: #eee;
+	border: grey 1px solid;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #888;
+}
+
+.jMenuItem {
+	min-width: 50px;
+	text-align: center;
+	list-style: none;
+	padding: 3px 15px;
+	backgound: #ccc;
+	border-top: grey 1px solid;
+	color: #333;
+	white-space: nowrap;
+}
+
+.jMenuItemHighlight {
+	background: #ddd;
+	color: #000;
+}
